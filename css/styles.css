@@ -277,4 +277,10 @@ img {
     color: #f4f4fd;
 }
 
+.footer p {
+    max-width: 264px;
+}
+.container a {
+    display: inline-block;
+}
 /* #endregion footer */
