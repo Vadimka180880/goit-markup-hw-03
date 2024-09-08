@@ -177,7 +177,7 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.portfolio-item {
+.portfolio-list .portfolio-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-list {
