@@ -399,7 +399,7 @@ img {
 .footer p {
     max-width: 264px;
 }
-.container a {
+.container {
     display: inline-block;
     margin-bottom: 16px;
 }
