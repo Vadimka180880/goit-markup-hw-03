@@ -124,6 +124,12 @@ img {
     letter-spacing: 0.04em;
     color: var(--cl-main-background-light);
     cursor: pointer;
+    
+    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 .btn-hero:hover, .btn-hero:focus {
     background-color: var(--cl-logo-ocean);
@@ -168,7 +174,7 @@ img {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.section-title {
+.features-list {
     display: flex;
     gap: 24px;
 }                                                              /* } */
