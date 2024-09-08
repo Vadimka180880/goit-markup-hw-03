@@ -1,22 +1,9 @@
 /* #region Varibles */
 :root {
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-      }
     /* Fonts */
     --main-font: Roboto, sans-serif;
     --second-font: Raleway, sans-serif;
-
+    
     /* Color */
     --cl-main-dark: #434455;
     --cl-main-background-light:#FFFFFF;
@@ -37,6 +24,21 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02en;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 ul {
     list-style-type: none;
 }
@@ -110,7 +112,10 @@ img {
 .cont-link:focus {
     color: #404bbf; 
 }
-
+.header-nav {
+    display: flex;
+    align-items: center; 
+}
 .contacts {
     font-style: normal;
 }
@@ -283,7 +288,7 @@ img {
     row-gap: 48px;
 }
 .portfolio-list .portfolio-item {
-    flex-basis: calc((100% - 2 * 24px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
     background-color: var(--cl-main-background-light);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 48px;
