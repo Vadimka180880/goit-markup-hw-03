@@ -401,11 +401,10 @@ img {
 .footer p {
     max-width: 264px;
 }
-.container {
+.footer .container a {
     margin-bottom: 16px;
-}
-.container a {
     display: inline-block;
 }
+
 /* #endregion footer */
 
