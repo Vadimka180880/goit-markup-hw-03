@@ -69,6 +69,7 @@ img {
 /* #region header */
 .page-header .header-logo .logo-text {
     color: var(--cl-navy-blue);
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
