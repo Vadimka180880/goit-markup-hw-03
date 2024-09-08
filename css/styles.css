@@ -79,6 +79,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     align-items: center;
+    display: flex;
 }
 
 .header-logo {
@@ -403,7 +404,7 @@ img {
     margin-bottom: 16px;
     
 } 
-.container {
+.container a {
     display: inline-block;
 }
 /* #endregion footer */
