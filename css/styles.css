@@ -357,13 +357,10 @@ img {
 /* #endregion */
 
 /* #region footer */
-/* Footer Styles */
-.footer {
-    background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.footer-logo a {
+    display: inline-block; 
+    color: var(--cl-logo-second);
+    text-decoration: none; 
 }
 
 .footer-logo {
@@ -373,10 +370,11 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cl-logo-second);
+    margin-bottom: 16px; 
 }
 
 .footer-nav a {
+    display: inline-block; 
     color: var(--cl-main-background-light);
     text-decoration: none;
 }
@@ -387,20 +385,9 @@ img {
 }
 
 .footer-text {
-    color: var(--cl-logo-cloud); 
+    color: var(--cl-logo-cloud);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px; 
 }
 
-.footer a.footer-logo span {
-    color: #f4f4fd;
-}
-
-.footer p {
-    max-width: 264px;
-}
-.container a {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-/* #endregion footer */
