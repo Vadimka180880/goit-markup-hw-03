@@ -401,7 +401,7 @@ img {
 .footer p {
     max-width: 264px;
 }
-.container {
+.container a {
     display: inline-block;
     margin-bottom: 16px;
 }
