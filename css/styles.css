@@ -80,7 +80,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     align-items: center;
-    display: inline-block;
 }
 
 .header-logo {
@@ -401,6 +400,7 @@ img {
     max-width: 264px;
 }
 .container {
+    display: inline-block;
     margin-bottom: 16px;
 }
 /* #endregion footer */
