@@ -103,6 +103,8 @@ img {
 .hero-section {
     background-color: var(--cl-navy-blue);
     text-align: center; 
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -110,8 +112,6 @@ img {
     line-height: 1.07; 
     letter-spacing: 0.02em; 
     color: var(--cl-main-background-light); 
-    padding-top: 188px;
-    padding-bottom: 188px;
     max-width: 496px;
 }
 
