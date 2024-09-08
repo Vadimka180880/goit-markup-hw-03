@@ -228,6 +228,12 @@ img {
     padding-top: 120px; 
     padding-bottom: 120px; 
 }
+.portfolio {
+    background-color: var(--cl-logo-cloud);  /* якщо потрібно також змінити фон */
+    letter-spacing: 0.02em;
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
 
 .portfolio-list {
     display: flex;
