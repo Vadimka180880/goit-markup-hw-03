@@ -391,6 +391,8 @@ img {
     color: var(--cl-logo-cloud); 
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer a.footer-logo span {
@@ -400,10 +402,10 @@ img {
 .footer p {
     max-width: 264px;
 }
-.footer-nav {
+/* .footer-nav {
     margin-bottom: 16px;
     display: inline-block;
-}
+} */
 
 /* #endregion footer */
 
