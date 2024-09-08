@@ -70,55 +70,33 @@ img {
 
 /* #endregion */
 /* #region header */
-.page-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
+.header-container {
     display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     align-items: center;
+    justify-content: space-between; /* Забезпечує розподіл простору між елементами */
 }
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
+    margin-right: auto; /* Забезпечує відступ від логотипа до меню */
 }
 
-.page-nav,
-.contacts-list {
+.page-nav {
     display: flex;
-    gap: 40px;
+    gap: 40px; /* Встановлює відстані між пунктами меню */
+}
+
+.contacts {
+    display: flex;
+    gap: 40px; /* Встановлює відстані між пунктами контактів */
+    margin-left: auto; /* Вирівнює контакти по правому краю */
 }
 
 .nav-link,
 .cont-link {
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-    color: #2e2f42;
+    padding: 24px 0; /* Встановлює відступи всередині посилань */
+    display: inline-block; /* Додає блочні властивості до інлайн елементу */
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.cont-link:hover,
-.cont-link:focus {
-    color: #404bbf; 
-}
-.header-nav {
-    display: flex;
-    align-items: center; 
-}
-.contacts {
-    font-style: normal;
-}
 /* #endregion header */
 
 
