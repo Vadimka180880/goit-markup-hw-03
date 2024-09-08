@@ -357,26 +357,33 @@ img {
 /* #endregion */
 
 /* #region footer */
-/* Footer Styles */
+
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0; 
+}
 
 .footer-logo,
 .footer a,
 .contacts-list .cont-link {
-    display: inline-block;  
-    font-weight: 700;
-    text-decoration: none;
+    display: inline-block; 
 }
 
 .footer-logo {
+    font-family: var(--second-font);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cl-logo-second);
+    margin-bottom: 16px;  
 }
 
-.footer-nav a {
+.footer-nav a,
+.contacts-list .cont-link {
     color: var(--cl-main-background-light);
+    text-decoration: none;
+    margin-bottom: 16px; 
 }
 
 .footer-nav a:hover,
@@ -387,10 +394,10 @@ img {
 }
 
 .footer-text {
-    color: var(--cl-logo-cloud); 
+    color: var(--cl-logo-cloud);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
-
 
 /* #endregion footer */
