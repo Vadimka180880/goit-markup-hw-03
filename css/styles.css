@@ -206,6 +206,8 @@ img {
 .portfolio-section {
     background-color: var(--cl-logo-cloud);  
     letter-spacing: 0.02em;
+    padding-top: 120px; 
+    padding-bottom: 120px; 
 }
 
 .portfolio-title {
@@ -215,6 +217,7 @@ img {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--cl-navy-blue);
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
