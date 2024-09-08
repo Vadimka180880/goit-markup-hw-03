@@ -155,15 +155,17 @@ img {
     letter-spacing: 0.02em; 
     color: var(--cl-navy-blue); 
     text-align: center; 
+    display: flex;
 }
 
 .section-title {
-    display: flex;
+    /* display: flex; */
     gap: 24px;
 }
 
 .features-section {
-    padding: 120px 0 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-list .feature-item {
@@ -206,7 +208,6 @@ img {
 }
 
 .items {
-    /* flex-basis: calc((100% - 3 * 24px) / 4);*/
     background-color: #FFFFFF;
     margin-bottom: 20px;
     border-radius: 0px 0px 4px 4px;
