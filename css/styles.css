@@ -298,6 +298,17 @@ img {
     line-height: 1.5;
     color: var(--cl-main-dark);
 }
+.app-info .title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--cl-navy-blue);
+    margin-bottom: 8px; 
+}
+
+.app-info .description {
+    line-height: 1.5;
+    color: var(--cl-main-dark);
+}
 /* #endregion */
 
 /* #region footer */
