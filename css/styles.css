@@ -156,12 +156,13 @@ img {
     color: var(--cl-navy-blue); 
     text-align: center; 
     display: flex;
-}
-
-.section-title {
-    /* display: flex; */
     gap: 24px;
 }
+
+/* .section-title { */
+    /* display: flex; */
+    /* gap: 24px; */
+/* } */
 
 .features-section {
     padding-top: 120px;
