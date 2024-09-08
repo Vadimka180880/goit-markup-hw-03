@@ -51,8 +51,6 @@ img {
     padding-left: 15px; 
     padding-right: 15px; 
     width: 1158px; 
-    display: flex;
-    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
