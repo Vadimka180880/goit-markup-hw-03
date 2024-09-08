@@ -360,44 +360,48 @@ img {
 
 .footer {
     background-color: #2E2F42;
-    padding: 100px 0; 
-}
-
-.footer-logo,
-.footer a,
-.contacts-list .cont-link {
-    display: inline-block; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .footer-logo {
     font-family: var(--second-font);
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cl-logo-second);
-    margin-bottom: 16px;  
 }
 
-.footer-nav a,
-.contacts-list .cont-link {
+.footer-nav a {
     color: var(--cl-main-background-light);
     text-decoration: none;
-    margin-bottom: 16px; 
 }
 
 .footer-nav a:hover,
-.footer-nav a:focus,
-.contacts-list .cont-link:hover,
-.contacts-list .cont-link:focus {
+.footer-nav a:focus {
     text-decoration: underline;
 }
 
 .footer-text {
-    color: var(--cl-logo-cloud);
+    color: var(--cl-logo-cloud); 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px;
 }
 
+.footer a.footer-logo span {
+    color: #f4f4fd;
+}
+
+.footer p {
+    max-width: 264px;
+}
+.container a {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 /* #endregion footer */
+
