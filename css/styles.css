@@ -50,8 +50,6 @@ img {
     max-width: 1200px; 
     padding-left: 15px; 
     padding-right: 15px; 
-    margin-left: auto; 
-    margin-right: auto;
     width: 1158px; 
     display: flex;
     margin: 0 auto;
@@ -401,7 +399,7 @@ img {
 .footer p {
     max-width: 264px;
 }
-.footer .container a {
+.footer.container a {
     margin-bottom: 16px;
     display: inline-block;
 }
