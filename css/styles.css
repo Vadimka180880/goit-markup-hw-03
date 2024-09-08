@@ -110,6 +110,9 @@ img {
     line-height: 1.07; 
     letter-spacing: 0.02em; 
     color: var(--cl-main-background-light); 
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 496px;
 }
 
 .btn-hero {
