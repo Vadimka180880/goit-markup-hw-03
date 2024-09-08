@@ -55,11 +55,16 @@ img {
 
 /* #endregion */
 /* #region header */
-.page-header .header-logo .logo-text {
-    color: var(--cl-navy-blue);
-}
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
 }
 
 .header-logo {
@@ -70,38 +75,32 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
-.page-nav {   
-    font-weight: 500;
+.page-nav,
+.contacts-list {
     display: flex;
+    gap: 40px;
 }
 
-.nav-link {
+.nav-link,
+.cont-link {
     letter-spacing: 0.02em;
+    padding: 24px 0;
     color: #2e2f42;
 }
 
-.page-nav .nav-link:hover,
-.page-nav .nav-link:focus,
-.contacts-list .cont-link:hover,
-.contacts-list .cont-link:focus {
-    color: #404bbf; 
+.nav-link:hover,
+.nav-link:focus,
+.cont-link:hover,
+.cont-link:focus {
+    color: #404bbf; /* Зміна кольору при hover і focus */
 }
 
 .contacts {
     font-style: normal;
 }
-.container {
-    width: 1158px;
-}
-.contacts-list .cont-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 /* #endregion header */
 
 /* #region Main */
