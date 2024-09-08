@@ -229,7 +229,7 @@ img {
     padding-bottom: 120px; 
 }
 .portfolio {
-    background-color: var(--cl-logo-cloud);  /* якщо потрібно також змінити фон */
+    background-color: var(--cl-logo-cloud);  
     letter-spacing: 0.02em;
     padding-top: 120px; 
     padding-bottom: 120px; 
@@ -243,6 +243,9 @@ img {
     row-gap: 48px;
 }
 .portfolio-list .portfolio-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+    background-color: var(--cl-main-background-light);
+    border-radius: 0px 0px 4px 4px;
     margin-bottom: 48px;
 }
 .portfolio-list .portfolio-item:nth-last-child(-n+3) {
@@ -282,6 +285,13 @@ img {
 .portfolio-specialization {
     color: var(--cl-main-dark);
     letter-spacing: 0.02em;
+}
+
+.title {
+    margin-bottom: 8px; 
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--cl-navy-blue);
 }
 
 .description {
