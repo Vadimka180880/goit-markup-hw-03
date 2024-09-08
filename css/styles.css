@@ -95,13 +95,14 @@ img {
 .nav-link:focus,
 .cont-link:hover,
 .cont-link:focus {
-    color: #404bbf; /* Зміна кольору при hover і focus */
+    color: #404bbf; 
 }
 
 .contacts {
     font-style: normal;
 }
 /* #endregion header */
+
 
 /* #region Main */
 /* Hero Section Styles */
