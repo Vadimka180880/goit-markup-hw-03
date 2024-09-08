@@ -245,6 +245,7 @@ img {
 /* Footer Styles */
 .footer {
     background-color: #2E2F42;
+    padding: 100px;
 }
 
 .footer-logo {
@@ -282,5 +283,6 @@ img {
 }
 .container a {
     display: inline-block;
+    margin-bottom: 16px;
 }
 /* #endregion footer */
